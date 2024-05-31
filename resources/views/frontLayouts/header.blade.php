@@ -24,7 +24,7 @@
                     <a href="{{route('contact')}}" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">Contact</a>
                 </div>
                 <div class="ml-auto">
-                    <a class="btn" href="https://htmlcodex.com/construction-company-html-template">Download Pro Version</a>
+                    <a class="btn" href="">Download Catalogue</a>
                 </div>
             </div>
         </nav>
