@@ -18,7 +18,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu">
                             <a href="{{route('blogCard')}}" class="dropdown-item {{ Request::is('blogCard') ? 'active' : '' }}" >Blog Page</a>
-                            <a href="{{route('blog-details',$blog->id)}}" class="dropdown-item {{ Request::is('blog-details') ? 'active' : '' }}">Single Page</a>
+{{--                            <a href="{{route('blog-details')}}" class="dropdown-item {{ Request::is('blog-details') ? 'active' : '' }}">Single Page</a>--}}
                         </div>
                     </div>
                     <a href="{{route('contact')}}" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">Contact</a>

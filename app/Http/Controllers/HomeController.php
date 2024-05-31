@@ -68,7 +68,7 @@ class HomeController extends Controller
     }
     public function blogDetails(Blog $blog){
 //        dd($blog);
-       $categories = Blog::all();
+        $categories = Blog::all();
         $recentPosts = Blog::orderBy('created_at', 'desc')->take(5)->get();
 //
         // Pass the data to the view
